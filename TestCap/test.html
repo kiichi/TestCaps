@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=794,user-scalable=false" />
+        <title>sample keyboard</title>
+    </head>
+    
+    <body id="index">
+            <form method="post" action="" id="signatureForm">
+                    1) From Devie > Toggle Hardware keyboard off so you can use the virtual keyboard on the simu.
+                    <br/>
+                    2) Try to type more than two characters in the numeric box, then when you click the alpha textbox where autocapitalize = "words"
+                    <br/>
+                    it will not set Caps on. However, if you click another box, it will set the cap. See caps.png file.
+                    <br/>
+                    this start happening in iOS8, and I tried to turn off predictor in Settings but no luck :(
+                    <br/>
+                    Try to check this on iOS 7 simulator by setting different target. Also try to throw this file on simulator to test it on Safari. It works on the Safari app.
+                    <br/>
+                    <input type="text" name="MRN" id="MRN" value="" pattern="[0-9]*"> Step 1) numeric textbox. Type more than two digits.</br>
+                    <input type="text" name="Firstname" id="Firstname"  value="" autocapitalize="words" />Step 2) click this alpha textbox (autocapitalize=words) the cap is not on. Why?</br>
+                    <input type="text" name="Firstname2" id="Firstname2"  value="" autocapitalize="words" />Step 3) Click this box. This is alpha box. Now the cap is on. </br>
+                    <input type="text" name="Firstname3" id="Firstname3"  value="" autocapitalize="words" />Click this box. This is alpha box. Now the cap is on.</br>
+                    <input type="text" name="Lastname"  id="Lastname" value=""  autocapitalize="sentences"/>Click this box. This is alpha box. Now the cap is on.(sentences)</br>
+                    <input type="text" name="Lastname2"  id="Lastname2" value=""  autocapitalize="sentences"/>Click this box. This is alpha box. Now the cap is on. (sentences)</br>
+                    <input type="text" name="Lastname3"  id="Lastname3" value=""  autocapitalize="sentences"/>Click this box. This is alpha box. Now the cap is on. (sentences)</br>
+                    
+                    <br/>
+                    Conclusion: After type more than two digits in numeric fields, the cap setting is not correct right after the numeric box.
+            </form>
+        </div>	
+    </body>
+</html>
