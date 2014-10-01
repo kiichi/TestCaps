@@ -12,3 +12,5 @@
 - Try to check this on iOS 7 simulator by setting different target. Also try to throw this file on simulator to test it on Safari. It works on the Safari app.
 
 - Conclusion: After type more than two digits in numeric fields, the cap setting is not correct right after the numeric box.
+
+![Caps went wrong](https://raw.githubusercontent.com/kiichi/TestCaps/master/caps.png)
