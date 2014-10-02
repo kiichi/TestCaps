@@ -13,4 +13,9 @@
 
 - Conclusion: After type more than two digits in numeric fields, the cap setting is not correct right after the numeric box.
 
+Video
+
+https://vimeo.com/107752163
+
+
 ![Caps went wrong](https://raw.githubusercontent.com/kiichi/TestCaps/master/caps.png)
